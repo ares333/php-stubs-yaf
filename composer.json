@@ -1,0 +1,31 @@
+{
+    "name": "ares333/php-yaf-doc",
+    "description": "PHP-Yaf-Doc file for IDE",
+    "authors": [
+		{
+			"name": "elad-yosifon"
+		},
+        {
+            "name": "Ares",
+            "email": "admin@phpdr.net"
+        }
+    ],
+    "keywords": [
+        "yaf-doc",
+        "php-yaf",
+		"yaf"
+    ],
+    "replace":[
+    ],
+    "require": {
+        "php": ">=5.2",
+        "ext-yaf": "*"
+    },
+    "license": "",
+    "autoload": {
+        "psr-0": {
+			
+        },
+        "classmap": []
+    }
+}
