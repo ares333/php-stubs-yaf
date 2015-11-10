@@ -15,8 +15,6 @@
         "php-yaf",
 		"yaf"
     ],
-    "replace":[
-    ],
     "require": {
         "php": ">=5.2",
         "ext-yaf": "*"
