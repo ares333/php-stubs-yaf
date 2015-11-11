@@ -14,8 +14,7 @@
 		"php-yaf"
     ],
     "require": {
-        "php": ">=5.2",
-        "ext-yaf": "*"
+        "php": ">=5.2"
     },
     "license": "Apache-2.0",
     "autoload": {
