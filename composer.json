@@ -1,6 +1,6 @@
 {
-    "name": "ares333/php-yaf-doc",
-    "description": "PHP-Yaf-Doc file for IDE",
+    "name": "phpdr.net/php-yaf-doc",
+    "description": "PHP yaf document file for IDE",
     "authors": [
 		{
 			"name": "elad-yosifon"
@@ -11,9 +11,8 @@
         }
     ],
     "keywords": [
-        "yaf-doc",
-        "php-yaf",
-		"yaf"
+		"php-yaf",
+        "php-yaf-doc"
     ],
     "require": {
         "php": ">=5.2",
