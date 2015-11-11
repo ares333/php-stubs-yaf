@@ -11,8 +11,7 @@
         }
     ],
     "keywords": [
-		"php-yaf",
-        "php-yaf-doc"
+		"php-yaf"
     ],
     "require": {
         "php": ">=5.2",
