@@ -7,7 +7,8 @@
 		},
         {
             "name": "Ares",
-            "email": "admin@phpdr.net"
+            "email": "admin@phpdr.net",
+            "homepage" : "http://phpdr.net"
         }
     ],
     "keywords": [
