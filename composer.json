@@ -15,8 +15,5 @@
 		"php-yaf",
 		"php-yaf-doc"
     ],
-    "require": {
-        "php": ">=5.2"
-    },
     "license": "Apache-2.0"
 }
