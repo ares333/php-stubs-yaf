@@ -17,7 +17,7 @@ interface View_Interface {
 	 * @param mixed $value
 	 * @return bool
 	 */
-	function assign($name, $value);
+	function assign($name, $value=null);
 
 	/**
 	 * Render a template and output the result immediately.
