@@ -83,7 +83,7 @@ abstract class Controller_Abstract {
 	 *
 	 * @link http://www.php.net/manual/en/yaf-controller-abstract.getresponse.php
 	 *
-	 * @return \Yaf\Response_Abstract
+	 * @return \Yaf\Response_Abstract|\Yaf\Response\Http|\Yaf\Response\Cli
 	 */
 	public function getResponse(){ }
 

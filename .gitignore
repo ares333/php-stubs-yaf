@@ -1,0 +1,8 @@
+/.svn/*
+/.settings/*
+/.buildpath
+/.classpath
+/.project
+/vendor/*
+/composer.lock
+/vendor/
