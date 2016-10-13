@@ -1,6 +1,6 @@
 <?php
 
-define('YAF_VERSION', '2.3.3', true);
+define('YAF_VERSION', '2.3.5', true);
 define('YAF_ENVIRON', 'product', true);
 define('YAF_ERR_STARTUP_FAILED', 512, true);
 define('YAF_ERR_ROUTE_FAILED', 513, true);
@@ -1898,7 +1898,7 @@ class Yaf_Response_Http extends Yaf_Response_Abstract {
 	/**
 	 * @var int
 	 */
-	protected $_response_code = 200;
+	protected $_response_code = 0;
 
 	/**
 	 *
@@ -1921,7 +1921,7 @@ class Yaf_Response_Http extends Yaf_Response_Abstract {
 	 *
 	 * @return bool
 	 */
-	public function setHeader($name,$value,$replace = false,$response_code = 200){ }
+	public function setHeader($name,$value,$replace = false,$response_code = 0){ }
 
 	/**
 	 * @link http://www.php.net/manual/en/yaf-response-abstract.setallheaders.php
