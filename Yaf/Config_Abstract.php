@@ -19,7 +19,7 @@ abstract class Config_Abstract {
 	 * @link http://www.php.net/manual/en/yaf-config-abstract.get.php
 	 *
 	 * @param string $name
-	 * @return mixed
+	 * @return \Yaf\Config_Abstract
 	 */
 	abstract public function get($name = null);
 
