@@ -1,5 +1,5 @@
 {
-    "name": "phpdr.net/php-yaf-doc",
+    "name": "ares333/yaf-doc",
     "description": "PHP yaf document file for IDE",
     "authors": [
 		{
@@ -7,13 +7,12 @@
 		},
         {
             "name": "Ares",
-            "email": "admin@phpdr.net",
             "homepage" : "http://phpdr.net"
         }
     ],
     "keywords": [
-		"php-yaf",
-		"php-yaf-doc"
+		"php yaf",
+		"php yaf doc"
     ],
     "license": "Apache-2.0"
 }
