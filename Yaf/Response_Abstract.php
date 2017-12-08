@@ -3,6 +3,7 @@ namespace Yaf ;
 
 /**
  * @link http://www.php.net/manual/en/class.yaf-response-abstract.php
+ * @method bool setRedirect($url)
  */
 abstract class Response_Abstract {
 
