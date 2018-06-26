@@ -28,7 +28,7 @@ interface View_Interface {
 	 * @param array $tpl_vars
 	 * @return bool
 	 */
-	function display($tpl, array $tpl_vars = null);
+	function display($tpl, $tpl_vars = null);
 
 	/**
 	 * @link http://www.php.net/manual/en/yaf-view-interface.getscriptpath.php
@@ -46,7 +46,7 @@ interface View_Interface {
 	 * @param array $tpl_vars
 	 * @return string
 	 */
-	function render($tpl, array $tpl_vars = null);
+	function render($tpl, $tpl_vars = null);
 
 	/**
 	 * Set the templates base directory, this is usually called by \Yaf\Dispatcher
