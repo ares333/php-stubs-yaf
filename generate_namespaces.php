@@ -122,6 +122,7 @@ function add_doc_blocks(&$class, $origin_class_name)
 			$part      = "    /**\n     * @see $origin_class_name::$reference\n     */\n    " . $part;
 		}
 	}
+	unset($block);
 
 	$methods_body = implode(PHP_EOL, $blocks);
 	$class        = implode(PHP_EOL, $class_parts);
@@ -167,6 +168,7 @@ foreach($class_hash as $key => &$value)
 	$trimmed = trim(get_namespaced_class_name($key, CD, NSD));
 	$value = ($trimmed{0}=="|" ? '|'.NSD.substr($trimmed,1): ' '.NSD. $trimmed);
 }
+unset($value);
 $class_hash = array_reverse($class_hash);
 $class_hash_keys = array_keys($class_hash);
 
@@ -186,9 +188,6 @@ foreach($classes as &$class)
 	$class     = trim($class);
 	$doc_class = [];
 	preg_match('/(\/\*{2}([\s\S]+?)\*\/)(.+)/s', $class, $doc_class);
-
-	$class_doc_block  = $doc_class[1];
-	$class_definition = $doc_class[3];
 
 	$class_definition_no_comments = preg_replace('/\/\*{2}([\s\S]+?)\*\//', '', $class);
 

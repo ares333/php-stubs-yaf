@@ -1,18 +1,24 @@
 {
-    "name": "ares333/php-stubs-yaf",
-    "description": "PHP yaf document file for IDE",
-    "authors": [
+	"name": "ares333/php-stubs-yaf",
+	"description": "PHP yaf document file for IDE",
+	"authors": [
 		{
 			"name": "Elad Yosifon"
 		},
-        {
-            "name": "Ares",
-            "homepage" : "http://phpdr.net"
-        }
-    ],
-    "keywords": [
+		{
+			"name": "Ares",
+			"homepage": "http://phpdr.net"
+		}
+	],
+	"keywords": [
 		"php yaf",
 		"php yaf doc"
-    ],
-    "license": "Apache-2.0"
+	],
+	"license": "Apache-2.0",
+	"autoload": {
+		"psr-4": {
+			"Yaf": "Yaf"
+		},
+		"classmap": "yaf.php"
+	}
 }
