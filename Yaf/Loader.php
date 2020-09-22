@@ -89,6 +89,14 @@ class Loader {
 	 */
 	public function registerLocalNamespace($name_prefix){ }
 
+    /**
+     * Register a namespace with searching path, Yaf_Loader searchs classes under this namespace in path, the one is also could be configureded via application.library.directory.namespace(in application.ini);
+     * Note:Yaf still think underline as folder separator.
+     * @param string|array $namespaces
+     * @param string $path
+     */
+    public function registerNamespace($namespaces,$path){}
+
 	/**
 	 * @link http://www.php.net/manual/en/yaf-loader.getlocalnamespace.php
 	 *
